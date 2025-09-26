@@ -1,0 +1,55 @@
+{
+  "name": "stellar-data-recovery-pro-free",
+  "version": "1.0.0",
+  "description": "Stellar Data Recovery Pro Free - Comprehensive data recovery solution",
+  "main": "bin/stellar-recovery.exe",
+  "scripts": {
+    "setup": "scripts/setup.ps1",
+    "start": "scripts/run.ps1",
+    "build": "build.bat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stellar/data-recovery-pro-free"
+  },
+  "keywords": [
+    "data-recovery",
+    "file-recovery",
+    "windows",
+    "stellar",
+    "data-restoration",
+    "deleted-files",
+    "partition-recovery"
+  ],
+  "author": "Stellar Information Technology",
+  "license": "MIT",
+  "homepage": "https://github.com/stellar/data-recovery-pro-free",
+  "bugs": {
+    "url": "https://github.com/stellar/data-recovery-pro-free/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "directories": {
+    "lib": "src",
+    "bin": "bin",
+    "doc": "docs"
+  },
+  "files": [
+    "bin/",
+    "docs/",
+    "scripts/",
+    "README.md",
+    "LICENSE"
+  ],
+  "config": {
+    "min_windows_version": "Windows 7",
+    "recommended_windows_version": "Windows 10/11",
+    "min_ram_gb": 4,
+    "recommended_ram_gb": 8,
+    "required_disk_space_mb": 250
+  }
+}
